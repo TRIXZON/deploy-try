@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    background: #0070f3;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .upload-area {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .drop-zone {
+    border: 2px dashed #0070f3;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: #e0f7fa;
+    max-width: 500px;
+    cursor: pointer;
+  }
+  
+  button {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #005bb5;
+  }
+  
+  .deployment-logs, .deployments {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
